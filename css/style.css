@@ -1,0 +1,25 @@
+/* Background image for the entire website */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  background-image: url("../images/Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+nav a {
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
