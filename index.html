@@ -20,6 +20,15 @@
 <main class="intro">
   <h1>Creation of a <strong>Capstone</strong></h1>
 </main>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    async function loadREADME() {
+      const response = await fetch("README.md");
+      const text = await response.text();
+      document.getElementById("readme-content").innerHTML = marked.parse(text);
+    }
 
+    loadREADME();
+  </script>
 </body>
 </html>
