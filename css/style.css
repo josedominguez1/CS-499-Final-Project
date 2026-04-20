@@ -11,6 +11,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 /* Title */
 
 .intro {
@@ -27,6 +28,7 @@ body {
   font-weight: normal;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
 }
+
 /* Top Right Navigation */
 
 .side-nav {
@@ -49,6 +51,7 @@ body {
   text-decoration: underline;
   transform: translateY(-2px);
 }
+
 /* Left Side Initials (JD) */
 
 .logo {
@@ -58,4 +61,42 @@ body {
   color: blue;
   font-size: 36px;
   font-weight: bold;
+}
+
+/* About Page */
+
+.about-content {
+  text-align: center;
+  color: white;
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+.video-section {
+  margin-top: 20px;
+}
+
+.video-section h2 {
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video-container iframe {
+  width: 560px;
+  height: 315px;
+  max-width: 100%;
 }
