@@ -126,3 +126,48 @@ body {
   height: 800px;
   border: none;
 }
+
+.readme-section {
+  max-width: 900px;
+  margin: 40px auto 80px auto;
+  padding: 20px;
+  color: white;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+}
+
+.readme-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+#readme-content {
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+#readme-content h1,
+#readme-content h2,
+#readme-content h3 {
+  color: white;
+}
+
+#readme-content a {
+  color: #9fd3ff;
+}
+
+#readme-content code {
+  background: rgba(255,255,255,0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+#readme-content pre {
+  background: rgba(255,255,255,0.1);
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
